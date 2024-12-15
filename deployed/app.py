@@ -10,7 +10,7 @@ st.title('EV Charging Station Maintenance Prediction')
 # Load the trained model
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = joblib.load('../ev_charging_station_maintenance_model.pkl')
+    model = joblib.load('ev_charging_station_maintenance_model.pkl')
     return model
 
 model = load_model()
