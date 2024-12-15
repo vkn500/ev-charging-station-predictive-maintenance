@@ -1,4 +1,4 @@
-# filepath: /C:/Users/tarun/Downloads/streamlit_app.py
+!pip install joblib# filepath: /C:/Users/tarun/Downloads/streamlit_app.py
 import streamlit as st
 import joblib
 import numpy as np
