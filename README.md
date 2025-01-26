@@ -5,7 +5,7 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 ## Project Structure
 
 - `data/`
-  - `charging_stations_data.xls`: Contains historical data on charging station usage and maintenance records.
+  - `interrelated_predictive_maintenance_ev_dataset (1).xls`: Contains historical data on charging station usage and maintenance records.
 - `notebooks/`
   - `predictive_maitenance.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
   - `version check.ipynb`: Jupyter Notebook to check the versions of the libraries used in the project.
