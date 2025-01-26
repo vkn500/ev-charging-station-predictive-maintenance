@@ -1,16 +1,24 @@
 # EV Charging Station Maintenance System Prediction
 
-This project aims to predict the maintenance needs of EV charging stations using machine learning techniques. The prediction model is built using data from an IPython Notebook (`.ipynb` file) and an Excel spreadsheet (`.xls` file).
+This project aims to enhance the reliability and efficiency of EV charging stations by predicting their maintenance needs. By leveraging machine learning techniques, the system can forecast potential faults and schedule maintenance proactively, thereby minimizing downtime and ensuring a seamless charging experience for users.
 
 ## Project Structure
 
-- `data/`
-  - `charging_stations_data.xls`: Contains historical data on charging station usage and maintenance records.
-- `notebooks/`
-  - `maintenance_prediction.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
-- `src/`
-  - `predict.py`: Script for making predictions using the trained model.
-- `README.md`: Project documentation.
+```plaintext
+data/
+  └── charging_stations_data.xls: Contains historical data on charging station usage and maintenance records.
+notebooks/
+  ├── maintenance_prediction.ipynb: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
+  └── version check.ipynb: Jupyter Notebook to check the versions of the libraries used in the project.
+models/
+  ├── efficiency_model.pkl: Trained model for predicting efficiency.
+  ├── fault_model.pkl: Trained model for predicting faults.
+  ├── maintenance_model.pkl: Trained model for predicting maintenance needs.
+  └── preprocessor.pkl: Preprocessing pipeline used for data transformation.
+src/
+  └── predict.py: Script for making predictions using the trained model.
+README.md: Project documentation.
+````
 
 ## Installation
 
@@ -60,7 +68,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the `LICENSE` file for more details.
-
-## Acknowledgements
-
-- Data provided by [Data Source].
