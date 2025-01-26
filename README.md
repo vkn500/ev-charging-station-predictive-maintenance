@@ -4,21 +4,19 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 
 ## Project Structure
 
-```plaintext
-data/
-  └── charging_stations_data.xls: Contains historical data on charging station usage and maintenance records.
-notebooks/
-  ├── maintenance_prediction.ipynb: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
-  └── version check.ipynb: Jupyter Notebook to check the versions of the libraries used in the project.
-models/
-  ├── efficiency_model.pkl: Trained model for predicting efficiency.
-  ├── fault_model.pkl: Trained model for predicting faults.
-  ├── maintenance_model.pkl: Trained model for predicting maintenance needs.
-  └── preprocessor.pkl: Preprocessing pipeline used for data transformation.
-src/
-  └── predict.py: Script for making predictions using the trained model.
-README.md: Project documentation.
-````
+- `data/`
+  - `charging_stations_data.xls`: Contains historical data on charging station usage and maintenance records.
+- `notebooks/`
+  - `maintenance_prediction.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
+  - `version check.ipynb`: Jupyter Notebook to check the versions of the libraries used in the project.
+- `models/`
+  - `efficiency_model.pkl`: Trained model for predicting usage efficiency.
+  - `fault_model.pkl`: Trained model for predicting faults probability.
+  - `maintenance_model.pkl`: Trained model for predicting next maintenance in days.
+  - `preprocessor.pkl`: Preprocessing pipeline used for data transformation.
+- `src/`
+  - `predict.py`: Script for making predictions using the trained model.
+- `README.md`: Project documentation.
 
 ## Installation
 
