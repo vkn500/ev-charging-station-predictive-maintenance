@@ -9,7 +9,6 @@ This project aims to predict the maintenance needs of EV charging stations using
 - `notebooks/`
   - `maintenance_prediction.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
 - `src/`
-  - `model.py`: Script for training and evaluating the prediction model.
   - `predict.py`: Script for making predictions using the trained model.
 - `README.md`: Project documentation.
 
