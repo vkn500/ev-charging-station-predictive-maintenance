@@ -16,7 +16,10 @@ This project aims to enhance the reliability and efficiency of EV charging stati
   - `preprocessor.pkl`: Preprocessing pipeline used for data transformation.
 - `src/`
   - `predict.py`: Script for making predictions using the trained model.
+- `LICENSE`: Contains the licensing information for the project.
 - `README.md`: Project documentation.
+- `requirements.txt`: List of dependencies required to run the project.
+- `streamlit_app.py`: Script to run the Streamlit web application for the project.
 
 ## Installation
 
