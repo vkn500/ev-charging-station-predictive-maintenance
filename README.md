@@ -7,7 +7,7 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 - `data/`
   - `charging_stations_data.xls`: Contains historical data on charging station usage and maintenance records.
 - `notebooks/`
-  - `maintenance_prediction.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
+  - `predictive_maitenance.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
   - `version check.ipynb`: Jupyter Notebook to check the versions of the libraries used in the project.
 - `models/`
   - `efficiency_model.pkl`: Trained model for predicting usage efficiency.
