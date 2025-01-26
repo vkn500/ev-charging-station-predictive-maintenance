@@ -1,4 +1,3 @@
-![GitHub Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=badflametarun&repo=ev-charging-station-maintenance-prediction)
 # EV Charging Station Maintenance System Prediction
 
 This project aims to enhance the reliability and efficiency of EV charging stations by predicting their maintenance needs. By leveraging machine learning techniques, the system can forecast potential faults and schedule maintenance proactively, thereby minimizing downtime and ensuring a seamless charging experience for users.
