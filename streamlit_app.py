@@ -85,3 +85,23 @@ if st.button("Predict"):
  # About section
 st.header('About')
 st.write('This project aims to enhance the reliability and efficiency of EV charging stations by predicting their maintenance needs. By leveraging machine learning techniques, the system can forecast potential faults and schedule maintenance proactively, thereby minimizing downtime and ensuring a seamless charging experience for users.')
+
+# Developers section
+st.header("Developers")
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.image("https://via.placeholder.com/100", caption="Komendra Kumar Dhruvey")
+    st.markdown("GitHub: [@komendra](#)  \nLinkedIn: [Profile](#)")
+
+with col2:
+    st.image("https://via.placeholder.com/100", caption="Shiv Kumar Sao")
+    st.markdown("GitHub: [@shivkumar](#)  \nLinkedIn: [Profile](#)")
+
+with col3:
+    st.image("./img/tarun.png", caption="Tarun Kumar Sahu")
+    st.markdown("GitHub: [badflametarun](https://github.com/badflametarun)  \nLinkedIn: [Connect](https://linkedin.com/in/gargitarun)")
+
+with col4:
+    st.image("https://via.placeholder.com/100", caption="Vishal Nishad")
+    st.markdown("GitHub: [@vishal](#)  \nLinkedIn: [Profile](#)")
