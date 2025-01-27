@@ -81,3 +81,7 @@ if st.button("Predict"):
     ax.set_title('Predicted Outputs')
 
     st.pyplot(fig)
+
+ # About section
+    st.header('About')
+    st.write('Developed by Komendra Kumar Dhruvey, Shiv Kumar Sao, Tarun Kumar Sahu, and Vishal Nishad.')
