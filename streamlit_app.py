@@ -83,5 +83,5 @@ if st.button("Predict"):
     st.pyplot(fig)
 
  # About section
-    st.header('About')
-    st.write('Developed by Komendra Kumar Dhruvey, Shiv Kumar Sao, Tarun Kumar Sahu, and Vishal Nishad.')
+st.header('About')
+st.write('Developed by Komendra Kumar Dhruvey, Shiv Kumar Sao, Tarun Kumar Sahu, and Vishal Nishad.')
