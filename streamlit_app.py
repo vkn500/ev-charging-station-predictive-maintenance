@@ -91,7 +91,7 @@ st.header("Developers")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.image("https://via.placeholder.com/100", caption="Komendra Kumar Dhruvey")
+    st.image("./img/komendra.png", caption="Komendra Kumar Dhruvey")
     st.markdown("GitHub: [@komendra](#)  \nLinkedIn: [Profile](#)")
 
 with col2:
