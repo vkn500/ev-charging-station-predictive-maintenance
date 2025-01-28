@@ -14,7 +14,7 @@ def main():
     scaler = joblib.load("./models/scaler.pkl")
 
     # User inputs
-    charging_station_id = st.number_input("Charging Station ID", 0, 9999, value=2500)
+    charging_station_id = st.number_input("Charging Station ID", 0, 5000, value=2500)
     charging_sessions = st.slider("Charging Sessions", 0, 20, value=10)
     total_energy = st.slider("Total Energy Delivered (kW)", 0, 1000, value=500)
     default_date = datetime.date.today() - datetime.timedelta(days=180)
@@ -86,7 +86,7 @@ def main():
         fig_predictions.update_layout(title="Prediction Overview")
         st.plotly_chart(fig_predictions)
 
-    
+
 
 if __name__ == '__main__':
     main()
