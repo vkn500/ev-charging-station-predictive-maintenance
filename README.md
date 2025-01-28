@@ -11,10 +11,10 @@ This project aims to enhance the reliability and efficiency of EV charging stati
   - `predictive_maitenance.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
   - `version check.ipynb`: Jupyter Notebook to check the versions of the libraries used in the project.
 - `models/`
-  - `efficiency_model.pkl`: Trained model for predicting usage efficiency.
-  - `fault_model.pkl`: Trained model for predicting faults probability.
-  - `maintenance_model.pkl`: Trained model for predicting next maintenance in days.
-  - `preprocessor.pkl`: Preprocessing pipeline used for data transformation.
+  - `model_fault_probability.pkl`: Trained model for predicting faults probability.
+  - `model_maintenance_needed.pkl`: Trained model for predicting type of maintenance needed.
+  - `model_next_maintenance_days.pkl`: Trained model for predicting next maintenance in days.
+  - `scaler.pkl`: Preprocessing pipeline used for data transformation.
 - `src/`
   - `predict.py`: Script for making predictions using the trained model.
 - `LICENSE`: Contains the licensing information for the project.
