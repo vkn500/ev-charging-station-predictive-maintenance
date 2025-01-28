@@ -5,7 +5,7 @@ import datetime
 import plotly
 
 def main():
-    st.title("EV Charging Station Maintenance Predictor")
+    st.title("Predictive Maintenance for EV Charging Stations")
 
     # Load models and scaler
     model_next_maintenance = joblib.load("./models/model_next_maintenance_days.pkl")
