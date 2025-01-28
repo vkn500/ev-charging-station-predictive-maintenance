@@ -67,28 +67,9 @@ def main():
         fig_features.update_layout(title="Feature Overview", xaxis_title="Features", yaxis_title="Values")
         st.plotly_chart(fig_features)
 
-        fig_predictions = go.Figure(layout={"grid": {"rows": 1, "columns": 2, "pattern": "independent"}})
-        fig_predictions.add_trace(go.Indicator(
-            mode="number",
-            value=days_pred,
-            title="Days Until Next Maintenance",
-            domain={"row": 0, "column": 0},
-            number={"font": {"color": colors[0]}}
-        ))
-        fig_predictions.add_trace(go.Indicator(
-            mode="number",
-            value=fault_pred * 100,
-            number={"suffix": "%"},
-            title="Fault Probability",
-            domain={"row": 0, "column": 1},
-            number={"font": {"color": colors[1]}}
-        ))
-        fig_predictions.update_layout(title="Prediction Overview")
-        st.plotly_chart(fig_predictions)
-
     #About
     st.sidebar.title("About")
-    st.sidebar.info("This web app predicts the next maintenance date, type of maintenance needed, and fault probability for an electric vehicle charging station based on user input.")
+    st.sidebar.info("This project aims to enhance the reliability and efficiency of EV charging stations by predicting their maintenance needs. By leveraging machine learning techniques, the system can forecast potential faults and schedule maintenance proactively, thereby minimizing downtime and ensuring a seamless charging experience for users.")
 
 
 
