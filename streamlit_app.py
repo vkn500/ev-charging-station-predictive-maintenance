@@ -68,8 +68,8 @@ def main():
         st.plotly_chart(fig_features)
 
     #About
-    st.sidebar.title("About")
-    st.sidebar.info("This project aims to enhance the reliability and efficiency of EV charging stations by predicting their maintenance needs. By leveraging machine learning techniques, the system can forecast potential faults and schedule maintenance proactively, thereby minimizing downtime and ensuring a seamless charging experience for users.")
+    st.subheader("About")
+    st.write("This project aims to enhance the reliability and efficiency of EV charging stations by predicting their maintenance needs. By leveraging machine learning techniques, the system can forecast potential faults and schedule maintenance proactively, thereby minimizing downtime and ensuring a seamless charging experience for users.")
 
 
 
