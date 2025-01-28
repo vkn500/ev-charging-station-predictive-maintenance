@@ -5,11 +5,12 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 ## Project Structure
 
 - `data/`
-  - `interrelated_predictive_maintenance_ev_dataset (1).xls`: Contains historical data on charging station usage and maintenance records.
+  - `charging_station_data`: Contains historical data on charging station usage and maintenance records.
 - `img/`: Optional Image files for this project.
 - `notebooks/`
-  - `predictive_maitenance.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
+  - `model.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
   - `version check.ipynb`: Jupyter Notebook to check the versions of the libraries used in the project.
+  - `visualization.ipynb`: Jupyter Notebook to query from data.
 - `models/`
   - `model_fault_probability.pkl`: Trained model for predicting faults probability.
   - `model_maintenance_needed.pkl`: Trained model for predicting type of maintenance needed.
@@ -38,10 +39,10 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 ## Usage
 
 1. Prepare the data:
-    - Ensure the `charging_stations_data.xls` file is placed in the `data/` directory.
+    - Ensure the `charging_station_data.csv` file is placed in the `data/` directory.
 
 2. Run the Jupyter Notebook:
-    - Open `notebooks/maintenance_prediction.ipynb` and execute the cells to preprocess the data and train the model.
+    - Open `notebooks/models.ipynb` and execute the cells to preprocess the data and train the model.
 
 ## Deployment
 
