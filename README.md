@@ -6,7 +6,6 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 
 - `data/`
   - `charging_station_data`: Contains historical data on charging station usage and maintenance records.
-- `img/`: Optional Image files for this project.
 - `notebooks/`
   - `model.ipynb`: Jupyter Notebook containing the data analysis, preprocessing, and model training code.
   - `version check.ipynb`: Jupyter Notebook to check the versions of the libraries used in the project.
@@ -18,6 +17,7 @@ This project aims to enhance the reliability and efficiency of EV charging stati
   - `scaler.pkl`: Preprocessing pipeline used for data transformation.
 - `src/`
   - `predict.py`: Script for making predictions using the trained model.
+  - `img/`: Optional Image files for this project.
 - `LICENSE`: Contains the licensing information for the project.
 - `README.md`: Project documentation.
 - `requirements.txt`: List of dependencies required to run the project.
