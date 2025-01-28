@@ -86,6 +86,10 @@ def main():
         fig_predictions.update_layout(title="Prediction Overview")
         st.plotly_chart(fig_predictions)
 
+    #About
+    st.sidebar.title("About")
+    st.sidebar.info("This web app predicts the next maintenance date, type of maintenance needed, and fault probability for an electric vehicle charging station based on user input.")
+
 
 
 if __name__ == '__main__':
