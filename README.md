@@ -27,7 +27,7 @@ This project aims to enhance the reliability and efficiency of EV charging stati
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/badflametarun/ev-charging-maintenance-prediction.git
+    git clone https://github.com/vkn500/ev-charging-maintenance-prediction.git
     cd ev-charging-maintenance-prediction
     ```
 
